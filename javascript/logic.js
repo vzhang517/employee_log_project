@@ -4,7 +4,8 @@
   var rate = 0;
   var monthsWorked = 0;
   var totalBilled = 0;
-
+  var currentDate = moment().format('L');
+  
   $("#submit").on("click", function(event){
   	event.preventDefault();
   	var row = [
