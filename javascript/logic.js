@@ -58,4 +58,3 @@ database.ref().on("child_added", function(Snapshot) {
 
 $("#rows").append("<tr><td>" + Snapshot.val().name + "</td><td>" + Snapshot.val().role + "</td><td>" +  Snapshot.val().start + "</td><td>" + monthsWorked  +"</td><td>" +  Snapshot.val().rate + "</td><td>" + totalBilled  +"</td></tr>");
 });
-
