@@ -9,7 +9,7 @@
 
   var database= firebase.database();
 
-  var name = "";
+var name = "";
 var role = "";
 var start = "";
 var rate = 0;
